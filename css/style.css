@@ -1,3 +1,59 @@
-#facebook-logo-button{
+
+body{
+    background: white;
+    font-size: 16px;
+    height: 100%;
+    min-height: 100%; 
+    font-family: " BlinkMacSystemFont";
+}
+/* header{
+    background: white; 
+    height: 56;
+    width: 100%;
+    display: block;
+} */
+
+.nav-bar{
+    background: pink;
+    height: 56px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.left-bar{
+    width: 161px;
+    height: 100%;
+    align-content: center;
+    float: left;
+}
+
+.left-bar img {
+    width: 161 px;
+    height: 20px;
+ 
+
+
+}
+
+.right-bar{
+    height: 100%;
+    float: right;
+    align-content: center;
+
+}
+
+.right-bar img{
+    width: 36px;
+    height: 36px;
+
+}
+
+.container-1{
+    height: auto;
+    background-image: url("../img/Summit2019.svg");
+    background-repeat: no-repeat;
+    background-color:#172B4D;
     color: white;
 }

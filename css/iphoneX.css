@@ -1,0 +1,212 @@
+
+body{
+    background: white;
+    font-size: 16px;
+    height: 100%;
+    min-height: 100%; 
+    font-family: Charlie Display,
+                -apple-system,
+                BlinkMacSystemFont,
+                Segoe UI,
+                Roboto,
+                Noto Sans,
+                Ubuntu,
+                Droid Sans,
+                Helvetica Neue,
+                sans-serif; 
+    margin: 0px;
+}
+
+/* navigation bar */
+ header{
+    background: white; 
+    height: 56;
+    width: 100%;
+    position: relative;
+    vertical-align: baseline;
+    box-sizing: inherit;
+
+
+
+} 
+
+/* navigation bar wrapper */
+.nav-bar{
+    background: #fff;
+    height: 56px;
+    width: 100%;
+
+}
+
+.left-bar{
+    width: 161px;
+    height: 100%;
+    align-content: center;
+    float: left;
+}
+
+a.atlassian-logo{
+    width: 193px;
+    height: 72px;
+}
+
+.left-bar img {
+    width: 161 px;
+    height: 20px;
+}
+
+.right-bar{
+    height: 100%;
+    float: right;
+    align-content: center;
+}
+
+.right-bar img{
+    width: 36px;
+    height: 36px;
+}
+
+/* Summit 2019 registration */
+.container-1{ 
+    background-image: url("https://wac-cdn.atlassian.com/dam/jcr:4ad14d09-926b-431d-92c4-339a548b53b3/Summit2019-WACTakeover-MobileHero.png?cdnVersion=ld");
+    background-repeat: no-repeat;
+    background-color:#172B4D;
+    color: white;
+    text-align: center;
+    width: 375px;
+    height: 347px;
+    padding: 32px 0 96px 0;
+    background-position: bottom left;
+    background-size: 100% 75%;
+    position: relative;
+}
+
+.register-now-block{
+    height: 270px;
+    width: 343px;
+    padding: 0px 16px 16px 16px;
+    
+}
+
+.register-heading-h1{
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0px;
+    margin-bottom: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+p.register-text{
+    letter-spacing: 0.3px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400px;
+
+}
+
+a.register-link{
+    border-radius: 3px;
+    font-weight: 500;
+    line-height: 38px;
+    padding: 0px 16px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    width: 102px;
+    height: 38px;
+    border: 1px solid #00C7E5;
+    color: #fff;
+    
+}
+
+/* Jira software cloud intro */
+.container-2{
+    width: 375px;
+    height: 528px;
+    position: relative;
+    padding: 16px 0px;
+    box-sizing: inherit;
+    background-color: #F4F5F7;
+    margin: 0px;
+    text-align: center;
+}
+
+.roadmaps-container{
+    width: 343px;
+    height: 300px;
+    min-height: 1px;
+    padding: 16px;
+    margin: 0px;
+}
+
+img.roadmaps-pic{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+/* bottom section */
+.c2-bottom{
+    width: 343px;
+    height: 164px;
+    padding: 16px;
+   
+    text-align: left;
+
+}
+
+.c2-bottom-text
+{
+    width: 100%;
+    height: 110px;
+    color: #253858;
+  
+}
+
+h3.c2-bottom-text-heading{
+    width: 100%;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    margin: 0px;
+    margin-bottom: 14px ;
+}
+p.c2-bottom-text-desc{
+    line-height: 24px;
+    margin: 0px;
+    margin-bottom: 24px; 
+}
+
+.c2-link-container{
+    width: 100%;
+    height: 30px;
+
+    line-height: 1px; 
+
+}
+
+a.c2-bottom-link{
+    border-radius: 3px;
+    border: 1px solid  #0052CC;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 0px 10px;
+    display: inline-block;
+    color: #0052CC;
+    text-decoration: none;
+
+}
+
+
+
+
+

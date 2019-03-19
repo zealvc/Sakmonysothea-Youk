@@ -1,5 +1,6 @@
 
 body{
+    width: 100%;
     background: white;
     font-size: 16px;
     height: 100%;
@@ -39,19 +40,19 @@ body{
 }
 
 .left-bar{
-    width: 161px;
+    width: 43%;
     height: 100%;
     align-content: center;
     float: left;
 }
 
 a.atlassian-logo{
-    width: 193px;
+    width: 100%;
     height: 72px;
 }
 
 .left-bar img {
-    width: 161 px;
+    width: 100%;
     height: 20px;
 }
 
@@ -73,12 +74,13 @@ a.atlassian-logo{
     background-color:#172B4D;
     color: white;
     text-align: center;
-    width: 375px;
+    width: 100%;
     height: 347px;
     padding: 32px 0 96px 0;
     background-position: bottom left;
     background-size: 100% 75%;
     position: relative;
+ 
 }
 
 .register-now-block{
@@ -125,7 +127,7 @@ a.register-link{
 
 /* Jira software cloud intro */
 .container-2{
-    width: 375px;
+    width: 100%;
     height: 528px;
     position: relative;
     padding: 16px 0px;
@@ -182,14 +184,14 @@ h3.c2-bottom-text-heading{
 p.c2-bottom-text-desc{
     line-height: 24px;
     margin: 0px;
-    margin-bottom: 24px; 
+  
 }
 
 .c2-link-container{
     width: 100%;
     height: 30px;
-
     line-height: 1px; 
+    margin-top: 24px ;
 
 }
 
@@ -206,7 +208,227 @@ a.c2-bottom-link{
 
 }
 
+/* tools intro */
+.container-3{
+    padding-top: 16px;
+    width: 100%;
+    height: 212px;
+    text-align: center;
+}
+
+.container-3-inner{
+    width: 91.5%;
+    padding: 64px 16px 16px;
+    text-align: center;
+
+}
+
+.tools-heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 0px 0px 14px;
+    text-align: center;
+    color: #253858;
+    
+}
+
+.tools-desc{
+    color: #253858;
+    font-size: 1rem;
+    letter-spacing: 0.3px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0px;
+    text-align: center;
+
+}
+
+/* short themtic break */
+
+.short-hr-container{
+    padding: 16px 0px;
+    width: 100%;
+
+}
+
+.hr-style{
+    background: #0052CC;
+    height: 4px;
+    width: 140px;
+    border: none;
+    margin: 0px 101px;
 
 
+}
+
+/* product column one */
+
+#product-container{
+    width: 100%;
+    padding: 16px 0px;
+
+}
+
+#product-container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#product-container-inner{
+    width: 100%;
+    position: relative;
+    padding: 16px 16px 0px 16px;
+
+}
+
+#product-heading{
+    width: 91.5%;
+}
+
+#product-heading-h3{
+    color: #42526E;
+    font-size: .875rem;
+    letter-spacing: 1px;
+    line-height: 1.25;
+    font-weight: 700;
+    margin: 0px 0px 23px;
+
+}
+
+/* product component: Jira Software */
+#product-component{
+    width: 91.5%;
+    padding-bottom: 41px;
+    margin-bottom: 17px;
+
+}
+#product-pic-container{
+    width: 100%;
+    height: 39px;
+}
+
+#product-pic{
+    height: 23px;
+    margin-bottom: 16px;
+}
+
+/* product description */
+
+#product-desc{
+    width: 100%;
+    color: #091E42;
+
+}
+
+#product-desc p{
+    color: #091E42;
+    width: 100%;
+    margin-bottom: 24px;
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+/* learn more link */
+#learn-more-container{
+    width: 100%;
+}
+
+#learn-more-link-container a{
+    width: 101px;
+    color: #0052CC;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 16px;
+    
+}
+
+#learn-more-link-container a svg{
+    width: 11px;
+    height: 8px;
+    
+}
+
+/* various people working */
+.vaious-people-working{
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.find-other-products-container{
+    box-sizing: border-box;
+    padding: 0px 16px 96px;
+}
+
+.find-other-product-link{
+    width: 100%;
+}
+
+.find-other-product-link a{
+    color: #253858;
+    margin-top: 0;
+    font-size: 1.25rem;
+    letter-spacing: .3px;
+    line-height: 1.2;
+    margin-bottom: 14px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.find-other-product-desc{
+    width: 100%;
+}
+
+.find-other-product-desc p{
+    width: 100%;
+    line-height: 24px;
+    font-size: 1rem;
+    color: #091E42;
+}
+
+.find-other-product-desc p a{
+    color: #0052CC;
+    text-decoration: none;
+    
+}
+
+/*get started*/
+
+.container-4{
+    width: 100%;
+    padding: 16px 0px;
+    background-color: #F4F5F7;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.container-4-inner{
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+
+}
+
+.container-4-link-container{
+    width: 100%;
+    text-align: center;
+}
+
+.container-4-link-container a{
+    background: #79F2C0;
+    border: 1px solid #79F2C0;
+    color: #172B4D;
+    text-decoration: none;
+    padding: 0px 16px;
+    border-radius: 3px;
+    display: inline-block;
+    font-weight: 500;
+    height: 40px;
+    line-height: 38px;
+
+}
 
 

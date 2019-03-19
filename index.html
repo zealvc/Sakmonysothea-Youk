@@ -61,193 +61,308 @@
             </div> 
             <div class="c2-link-container">
                 <a class="c2-bottom-link" href="#">Take a look</a>
-            </div>        
-           
+            </div>               
         </div>
     </div>
 
-    <!-- container 3 -->
+    <!-- tools intro -->
     <div class="container-3">
-        <h2>Tools for teams, from startup to enterprise</h2>
-        <p>Atlassian provides the tools to help every team unleash their full potential </p>
+        <div class="container-3-inner">
+            <h2 class="tools-heading">Tools for teams, from startup to enterprise</h2>
+            <p class="tools-desc">Atlassian provides the tools to help every team unleash their full potential </p>
+        </div>
+        
     </div>
 
     <!-- Short Themtic break -->
-    <div class="short-hr"><hr></div>
+    <div class="short-hr-container">
+        <hr class="hr-style">
+    </div>
 
     <!-- product column one -->
     <div id="product-container">
-        <div id="product-heading">
-            <h3>PLAN, TRACK, & SUPPORT</h3>
-        </div>        
-        <!-- product component: Jira Software -->
-        <div id = "product-component">
-            <a href="#">
-                <img src="img/Jira Software-blue.svg" alt="jira Software blue picture">
-            </a>
-            <p>Plan, track, and release world-class Software with the #1 software development tool used by agile teams.</p>  
-            <div id="link-linkIcon">
-                <a href="#">
-                    Learn more
-                    <img src="img/right-arrow.svg" alt="right arrow">
-                </a>             
-            </div>
-        </div>   
-        <!-- product component: Jira Service Desk -->
-        <div id = "product-component">
-            <a href="#">
-                <img src="img/Jira Service Desk-blue.svg" alt="jira Service Desk">
-            </a>
-            <p>Give your customers an easy way to ask for help and your agents a fast way to resolve incidents.</p>  
-            <div id="link-linkIcon">
-                <a href="#">
-                    Learn more
-                    <img src="img/right-arrow.svg" alt="right arrow">
-                </a>             
-            </div>
-        </div> 
-         <!-- product component: Jira Ops -->
-         <div id = "product-component">
-                <a href="#">
-                    <img src="img/Jira Ops-blue-rgb.svg" alt="jira Ops">
-                </a>
-                <p>Modern incident management with one place to respond, resolve, and learn from every incident.</p>  
-                <div id="link-linkIcon">
-                    <a href="#">
-                        Learn more
-                        <img src="img/right-arrow.svg" alt="right arrow">
-                    </a>             
-                </div>
-            </div>          
-        <!-- product component: StatusPage -->
-        <div id = "product-component">
-            <a href="#">
-                <img src="img/Statuspage-blue.svg" alt="StatusPage">
-            </a>
-            <p>Incidents happen. Keep your users informed and ditch the flood of support emails during downtime.</p>  
-            <div id="link-linkIcon">
-                <a href="#">
-                    Learn more
-                    <img src="img/right-arrow.svg" alt="right arrow">
-                </a>             
-            </div>
-        </div>
-         <!-- product component: Opsgenie -->
-         <div id = "product-component">
-            <a href="#">
-                <img src="img/Opsgenie-blue-rgb.svg" alt="Opsgenie">
-            </a>
-            <p>Notify the right people at the right time with powerful incident alerting and on-call schedules.</p>  
-            <div id="link-linkIcon">
-                <a href="#">
-                    Learn more
-                    <img src="img/right-arrow.svg" alt="right arrow">
-                </a>             
-            </div>
-         </div>
+        <div id="product-container-flex">
+            <div id="product-container-inner">
+                <div id="product-heading">
+                    <h3 id="product-heading-h3">PLAN, TRACK, & SUPPORT</h3>
+                </div>        
+                <!-- product component: Jira Software -->
+                <div id = "product-component">
+                    <div id="porduct-pic-container">
+                        <a href="#" id="product-pic-link">
+                            <img id ="product-pic"src="img/Jira Software-blue.svg" alt="jira Software blue picture">
+                        </a>
+                    </div>
+                    <!-- product description -->
+                    <div id="product-desc">
+                        <p>Plan, track, and release world-class Software with the #1 software development tool used by agile teams.</p>  
+                    </div>
+                    
+                    <!-- learn more link -->
+                    <div id="learn-more-link-container">
+                        <a href="#">
+                            Learn more
+                            <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                        <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>             
+                    </div>
+                </div>             
+                <!-- product component:Jira Service Desk-->
+                <div id = "product-component">
+                    <div id="porduct-pic-container">
+                        <a href="#" id="product-pic-link">
+                            <img id ="product-pic"src="img/Jira Service Desk-blue.svg" alt="jira Software blue picture">
+                        </a>
+                    </div>
+                    <!-- product description -->
+                    <div id="product-desc">
+                        <p>Give your customers an easy way to ask for help and your agents a fast way to resolve incidents.</p>
+                    </div>
+                    <!-- learn more link -->
+                    <div id="learn-more-link-container">
+                        <a href="#">
+                            Learn more
+                            <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                        <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>             
+                    </div>
+                </div> 
+                <!-- product component:Jira Ops-->
+                <div id = "product-component">
+                    <div id="porduct-pic-container">
+                        <a href="#" id="product-pic-link">
+                            <img id ="product-pic"src="img/Jira Ops-blue-rgb.svg" alt="jira Software blue picture">
+                        </a>
+                    </div>
+                    <!-- product description -->
+                    <div id="product-desc">
+                        <p>Modern incident management with one place to respond, resolve, and learn from every incident.</p>  
+                    </div>
+                    <!-- learn more link -->
+                    <div id="learn-more-link-container">
+                        <a href="#">
+                            Learn more
+                            <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                        <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>             
+                    </div>
+                </div> 
+                 <!-- product component:StatusPage-->
+                 <div id = "product-component">
+                    <div id="porduct-pic-container">
+                        <a href="#" id="product-pic-link">
+                            <img id ="product-pic"src="img/Statuspage-blue.svg" alt="jira Software blue picture">
+                        </a>
+                    </div>
+                    <!-- product description -->
+                    <div id="product-desc">
+                        <p>Incidents happen. Keep your users informed and ditch the flood of support emails during downtime.</p>  
+                    </div>
+                    <!-- learn more link -->
+                    <div id="learn-more-link-container">
+                        <a href="#">
+                            Learn more
+                            <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                        <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>             
+                    </div>
+                </div> 
+                <!-- product component:StatusPage-->
+                <div id = "product-component">
+                    <div id="product-pic-container">
+                        <a href="#" id="product-pic-link">
+                            <img id ="product-pic" src="img/Opsgenie-blue-rgb.svg" alt="jira Software blue picture">
+                        </a>
+                    </div>
+                    <!-- product description -->
+                    <div id="product-desc">
+                        <p>Notify the right people at the right time with powerful incident alerting and on-call schedules.</p>  
+                    </div>
+                    <!-- learn more link -->
+                    <div id="learn-more-link-container">
+                        <a href="#">
+                            Learn more
+                            <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                        <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>             
+                    </div>
+                </div>         
+            </div>     
+        </div>     
     </div>
 
-    <!-- product column 2 -->
-    <div id="product-container">
-        <div id="product-heading">
-            <h3>CODE, BUILD & SHIP</h3>
-        </div>   
-        <!-- product component: Bitbucket -->
-        <div id = "product-component">
-            <a href="#">
-                <img src="img/Bitbucket-blue.svg" alt="Bitbucket">
-            </a>
-            <p>Collaborate on code and manage your Git repositories to build and ship software, as a team.</p>  
-            <div id="link-linkIcon">
-                <a href="#">
-                    Learn more
-                    <img src="img/right-arrow.svg" alt="right arrow">
-                </a>             
-            </div>
-        </div>   
-         <!-- product component: Sourcetree -->
-         <div id = "product-component">
-            <a href="#">
-                <img src="img/Sourcetree-blue.svg" alt="Sourcetree">
-            </a>
-            <p>Harness the full power of Git and Mercurial in a beautifully simple application.</p>  
-            <div id="link-linkIcon">
-                <a href="#">
-                    Learn more
-                    <img src="img/right-arrow.svg" alt="right arrow">
-                </a>             
-            </div>
-        </div>   
-        <!-- product component: Bamboo -->
-        <div id = "product-component">
-            <a href="#">
-                <img src="img/Bamboo-blue.svg" alt="Bamboo">
-            </a>
-            <p>Continuous integration, deployment, and release management.</p>
-            <div id="link-linkIcon">
-                <a href="#">
-                    Learn more
-                    <img src="img/right-arrow.svg" alt="right arrow">
-                </a>             
-            </div>
-        </div>   
-    </div>
-     <!-- product column 3 -->
+     <!-- product column two -->
      <div id="product-container">
-        <div id="product-heading">
-            <h3>COLLABORATE</h3>
-        </div>   
-        <!-- product component: Confluence -->
-        <div id = "product-component">
-            <a href="#">
-                <img src="img/Confluence-blue.svg" alt="Confluence">
-            </a>
-            <p>Spend more time getting things done. Organize your work, create documents, and discuss everything in one place.</p>  
-            <div id="link-linkIcon">
-                <a href="#">
-                    Learn more
-                    <img src="img/right-arrow.svg" alt="right arrow">
-                </a>             
+            <div id="product-container-flex">
+                <div id="product-container-inner">
+                    <div id="product-heading">
+                        <h3 id="product-heading-h3">CODE, BUILD, & SHIP</h3>
+                    </div>            
+                     <!-- product component: Sourcetree-->
+                     <div id = "product-component">
+                        <div id="porduct-pic-container">
+                            <a href="#" id="product-pic-link">
+                                <img id ="product-pic"src="img/Sourcetree-blue.svg" alt="Sourcetree blue">
+                            </a>
+                        </div>
+                        <!-- product description -->
+                        <div id="product-desc">
+                            <p>Harness the full power of Git and Mercurial in a beautifully simple application.</p>
+                        </div>
+                        <!-- learn more link -->
+                        <div id="learn-more-link-container">
+                            <a href="#">
+                                Learn more
+                                <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                            <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>             
+                        </div>
+                    </div> 
+                    <!-- product component: Bamboo-->
+                    <div id = "product-component">
+                        <div id="product-pic-container">
+                            <a href="#" id="product-pic-link">
+                                <img id ="product-pic" src="img/Bamboo-blue.svg" alt="Bmboo Desk-blue">
+                            </a>
+                        </div>
+                        <!-- product description -->
+                        <div id="product-desc">
+                            <p>Continuous integration, deployment, and release management.</p>
+                        </div>
+                        <!-- learn more link -->
+                        <div id="learn-more-link-container">
+                            <a href="#">
+                                Learn more
+                                <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                            <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>             
+                        </div>
+                    </div>         
+                </div>     
+            </div>     
+        </div>
+
+        <!-- product column three -->
+        <div id="product-container">
+            <div id="product-container-flex">
+                <div id="product-container-inner">
+                    <div id="product-heading">
+                        <h3 id="product-heading-h3">COLLABORATE</h3>
+                    </div>        
+                    <!-- product component: Confluence -->
+                    <div id = "product-component">
+                        <div id="porduct-pic-container">
+                            <a href="#" id="product-pic-link">
+                                <img id ="product-pic"src="img/Confluence-blue.svg" alt="Confluence">
+                            </a>
+                        </div>
+                        <!-- product description -->
+                        <div id="product-desc">
+                            <p>Spend more time getting things done. Organize your work, create documents, and discuss everything in one place.</p>
+                        </div>
+                        <!-- learn more link -->
+                        <div id="learn-more-link-container">
+                            <a href="#">
+                                Learn more
+                                <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                            <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>             
+                        </div>
+                    </div>             
+                    <!-- product component: Trello-->
+                    <div id = "product-component">
+                        <div id="porduct-pic-container">
+                            <a href="#" id="product-pic-link">
+                                <img id ="product-pic"src="img/Trello-icon-blue.svg" alt="Trello">
+                            </a>
+                        </div>
+                        <!-- product description -->
+                        <div id="product-desc">
+                            <p>Collaborate and get more done. Trello boards enable your team to organize projects in a fun, flexible, and visual way.</p>                        </div>
+                        <!-- learn more link -->
+                        <div id="learn-more-link-container">
+                            <a href="#">
+                                Learn more
+                                <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                            <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </a>             
+                        </div>
+                    </div> 
+                </div>     
+            </div> 
+            <!-- various people working -->
+            <div class= "vaious-people-working">
+                <img src="img/Stack.svg" alt="various people working ">
             </div>
-        </div>   
-        <!-- product component: Trello -->
-        <div id = "product-component">
-            <a href="#">
-                <img src="img/Trello-icon-blue.svg" alt="Trello">
-            </a>
-            <p>Collaborate and get more done. Trello boards enable your team to organize projects in a fun, flexible, and visual way.</p>  
-            <div id="link-linkIcon">
-                <a href="#">
-                    Learn more
-                    <img src="img/right-arrow.svg" alt="right arrow">
-                </a>             
+
+            <!-- Find other products -->
+            <div class="find-other-products-container">            
+            <!-- and more link -->
+                <div class="find-other-product-link">
+                    <a href="#">and more...</a>
+                </div>
+                <div class="find-other-product-desc">
+                    <p>
+                        Find other products, apps, solutions, and services to keep your team moving forward. 
+                        <br>
+                        <a href="#">See all of our products</a>
+                    </p>
+                </div>
             </div>
-        </div>   
-    </div>
-
-    <!-- various people -->
-    <div class= "vaious-people-building">
-        <img src="img/Stack.svg" alt="various people building ">
-    </div>
-
-    <!-- and more part -->
-    <div>
-        <div class="and-more-link">
-            <a href="#">and more...</a>
         </div>
-        <div>
-            <p>Find other products, apps, solutions, and services to keep your team moving forward.</p>     
-            <a href="#">See all of our products</a>
-        </div>
-    </div>
 
-    <!-- container 3 -->
-    <div>
-        <div>
-            <h3>Get started with our products, for free</h3>
-            <p>Atlassian products are free to try, easy to set up, and work seamlessly together.</p>
+    <!-- get started -->
+    <div class="container-4">
+        <div class="container-4-inner">
+            <h3 class="tools-heading">Get started with our products, for free</h3>
+            <p class="tools-desc">Atlassian products are free to try, easy to set up, and work seamlessly together.</p>
         </div>
-        <div>
+        <div class="container-4-link-container">
             <a href="#">Get Started for free</a>
         </div>
     </div>

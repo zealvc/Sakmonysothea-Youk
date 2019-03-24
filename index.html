@@ -11,102 +11,95 @@
 </head>
 
 <body>
-    <!-- the white bar on top  -->
-    <header>
-        <div class = "nav-bar">
-            <div class="left-bar">
-                <a href = "#" class="atlassian-logo">
-                    <img src="img/Atlassian-horizontal-blue-rgb.svg" alt = "Atlassian logo">
-                </a>
-            </div>   
-            <div class="right-bar">
-                <a href = "#">    
-                    <img src="img/search-icon.svg"alt = "burder icon">
-                </a>
-                <a href="#">
-                    <img src="img/burger-icon.svg">
-                </a>
-            </div>             
-        </div>
-    </header>   
 
-    <!-- Summit 2019 registration-->
-    <div class = "container-1">
-        <!-- dark blue "register now " part  -->  
-        <div class = "register-now-block">         
-            <!-- text blog -->
-            <div>
-                <h1 class = "register-heading-h1">Summit 2019 is heading to Las Vegas</h1>
-                <p class="register-text">
-                    Extend your professional network, sharpen your skills, 
-                    and learn new ways to work at our annual user conference. 
-                    Join us on April 9-11.
-                </p>
+    <!-- nav bar -->
+    <header>
+        <!-- left bar -->
+        <div class="header-left-bar">
+            <div class="header-left-bar-inner">
+                <a href="#">
+                    <img class="header-left-bar-logo" src="https://wac-cdn.atlassian.com/dam/jcr:616e6748-ad8c-48d9-ae93-e49019ed5259/Atlassian-horizontal-blue-rgb.svg?cdnVersion=le" alt="atlassian logo">
+                </a>
             </div>
+            
+        </div>
+
+        <!-- right bar -->
+        <div class="header-right-bar">
+            <a href="#">
+                <img class="header-right-search-logo" src="img/search-icon.svg" alt="search icon">
+            </a>
+            <a href="#">
+                <img class="header-right-burger-logo" src="img/burger-icon.svg" alt="burger icon">
+            </a>           
+        </div>
+    </header>
+    
+    <!-- Anouncing-->
+    <div class = "container-1">
+        <!-- text block  -->  
+        <div class = "anouncing-container">         
+            <!-- text bloCK -->
+            <h3 class = "anouncing-heading-h3">ANOUNCING</h3>
+            <img class="anouncing-img" src="https://wac-cdn.atlassian.com/dam/jcr:5148fb2c-e244-455b-afed-ed1ba3e45b93/AC-logo.svg?cdnVersion=le" alt="Agile craft">
+            <p class="anouncing-desc">
+                We’re excited to announce Atlassian has agreed to acquire AgileCraft, a leader in business agility, to extend the power of agile teams to the enterprise.
+            </p>
             <!-- register now button -->
-            <a href = "#" class="register-link">Register now</a>
+            <a class="anouncing-link" href = "#" >Learn more</a>
         </div>
     </div>
 
-    <!-- Jira software cloud intro-->
+    <!-- container 2: summit 2019-->
     <div class = "container-2">
-        <div class="roadmaps-container">
-             <img class="roadmaps-pic" src="img/roadmaps.svg" alt="roadmaps">
+        <div class="summit-pic-container">
+            <img class="summit-pic" src="https://wac-cdn.atlassian.com/dam/jcr:c6a8ca1f-dd2a-48c6-bff6-19ba8b03d6a1/Summit2019-WAC_H2_200x200-2x.svg?cdnVersion=le" alt="profile picture of a man">
         </div>
         <!-- bottom section -->
         <div class="c2-bottom">        
             <div class="c2-bottom-text">
-                <h3 class="c2-bottom-text-heading">See how we're reimagining Jira Software Cloud</h3>
-                <p class="c2-bottom-text-desc">Roadmaps, new boards, and easier configuration are just the begining </p>
+                <h3 class="c2-bottom-text-heading">Summit 2019 is heading to Las Vegas</h3>
+                <p class="c2-bottom-text-desc">Extend your professional network, sharpen your skills, and learn new ways to work at our annual user conference. Join us on April 9-11.</p>
             </div> 
             <div class="c2-link-container">
-                <a class="c2-bottom-link" href="#">Take a look</a>
+                <a class="c2-bottom-link" href="#">Register now</a>
             </div>               
         </div>
     </div>
 
-    <!-- tools intro -->
+    <!-- container3: tools intro -->
     <div class="container-3">
         <div class="container-3-inner">
-            <h2 class="tools-heading">Tools for teams, from startup to enterprise</h2>
+            <h2 class="tools-heading-h2">Tools for teams, from startup to enterprise</h2>
             <p class="tools-desc">Atlassian provides the tools to help every team unleash their full potential </p>
         </div>
         
     </div>
 
     <!-- Short Themtic break -->
-    <div class="short-hr-container">
-        <div class="short-hr-container-inner">
-            <hr class="hr-style">
-
-        </div>
+    <hr class="hr-style">
     
-    </div>
-
-    <!-- product column one -->
-    <div id="product-container">
-        <div id="product-container-flex">
-            <div id="product-container-inner">
-                <div id="product-heading">
-                    <h3 id="product-heading-h3">PLAN, TRACK, & SUPPORT</h3>
-                </div>        
-                <!-- product component: Jira Software -->
-                <div id = "product-component">
-                    <div id="porduct-pic-container">
-                        <a href="#" id="product-pic-link">
-                            <img id ="product-pic"src="img/Jira Software-blue.svg" alt="jira Software blue picture">
+    <div class="product-container">
+        <div class="product-container-flex">
+            <!-- product column one -->
+            <div class="product">
+                <!-- heading -->
+                <h3 class="product-heading-h3">Plan, track, & support</h3>
+                 <!-- product component: Jira Software -->
+                 <div class = "product-component">
+                     <!-- picture -->
+                     <div  class="porduct-pic-container">
+                        <a  href="#">
+                            <img class ="product-pic" src="img/Jira Software-blue.svg" alt="jira software blue">
                         </a>
                     </div>
                     <!-- product description -->
-                    <div id="product-desc">
-                        <p>Plan, track, and release world-class Software with the #1 software development tool used by agile teams.</p>  
-                    </div>
-                    
+                    <p class="product-desc">Plan, track, and release world-class Software with the #1 software development tool used by agile teams.</p>      
                     <!-- learn more link -->
-                    <div id="learn-more-link-container">
-                        <a href="#">
+                    <div >
+                        <a class="learn-more-link-container" href="#">
                             Learn more
-                            <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <svg width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                     <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
                                         <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
@@ -115,23 +108,22 @@
                             </svg>
                         </a>             
                     </div>
-                </div>             
-                <!-- product component:Jira Service Desk-->
-                <div id = "product-component">
-                    <div id="porduct-pic-container">
-                        <a href="#" id="product-pic-link">
-                            <img id ="product-pic"src="img/Jira Service Desk-blue.svg" alt="jira Software blue picture">
+                </div>  
+                 <!-- product component: Jira service desk-->
+                 <div class = "product-component">
+                    <!-- picture -->
+                    <div  class="porduct-pic-container">
+                        <a  href="#">
+                            <img class ="product-pic" src="img/Jira Service Desk-blue.svg" alt="jira service desk">
                         </a>
                     </div>
                     <!-- product description -->
-                    <div id="product-desc">
-                        <p>Give your customers an easy way to ask for help and your agents a fast way to resolve incidents.</p>
-                    </div>
+                    <p class="product-desc">Give your customers an easy way to ask for help and your agents a fast way to resolve incidents.</p>      
                     <!-- learn more link -->
-                    <div id="learn-more-link-container">
-                        <a href="#">
+                    <div >
+                        <a class="learn-more-link-container" href="#">
                             Learn more
-                            <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <svg width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                     <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
                                         <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
@@ -140,23 +132,22 @@
                             </svg>
                         </a>             
                     </div>
-                </div> 
-                <!-- product component:Jira Ops-->
-                <div id = "product-component">
-                    <div id="porduct-pic-container">
-                        <a href="#" id="product-pic-link">
-                            <img id ="product-pic"src="img/Jira Ops-blue-rgb.svg" alt="jira Software blue picture">
+                </div>
+                 <!-- product component: Jira ops-->
+                 <div class = "product-component">
+                    <!-- picture -->
+                    <div  class="porduct-pic-container">
+                        <a  href="#">
+                            <img class ="product-pic" src="img/Jira Ops-blue-rgb.svg" alt="jira ops blue">
                         </a>
                     </div>
                     <!-- product description -->
-                    <div id="product-desc">
-                        <p>Modern incident management with one place to respond, resolve, and learn from every incident.</p>  
-                    </div>
+                    <p class="product-desc">Modern incident management with one place to respond, resolve, and learn from every incident.</p>      
                     <!-- learn more link -->
-                    <div id="learn-more-link-container">
-                        <a href="#">
+                    <div >
+                        <a class="learn-more-link-container" href="#">
                             Learn more
-                            <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <svg width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                     <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
                                         <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
@@ -165,23 +156,22 @@
                             </svg>
                         </a>             
                     </div>
-                </div> 
-                 <!-- product component:StatusPage-->
-                 <div id = "product-component">
-                    <div id="porduct-pic-container">
-                        <a href="#" id="product-pic-link">
-                            <img id ="product-pic"src="img/Statuspage-blue.svg" alt="jira Software blue picture">
+                </div>
+                 <!-- product component: status page-->
+                 <div class = "product-component">
+                    <!-- picture -->
+                    <div  class="porduct-pic-container">
+                        <a  href="#">
+                            <img class ="product-pic" src="img/Statuspage-blue.svg" alt="status page bue">
                         </a>
                     </div>
                     <!-- product description -->
-                    <div id="product-desc">
-                        <p>Incidents happen. Keep your users informed and ditch the flood of support emails during downtime.</p>  
-                    </div>
+                    <p class="product-desc">Incidents happen. Keep your users informed and ditch the flood of support emails during downtime.</p>      
                     <!-- learn more link -->
-                    <div id="learn-more-link-container">
-                        <a href="#">
+                    <div >
+                        <a class="learn-more-link-container" href="#">
                             Learn more
-                            <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <svg width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                     <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
                                         <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
@@ -190,23 +180,22 @@
                             </svg>
                         </a>             
                     </div>
-                </div> 
-                <!-- product component:StatusPage-->
-                <div id = "product-component">
-                    <div id="product-pic-container">
-                        <a href="#" id="product-pic-link">
-                            <img id ="product-pic" src="img/Opsgenie-blue-rgb.svg" alt="jira Software blue picture">
+                </div>
+                <!-- product component: opsgenie-->
+                <div class = "product-component">
+                    <!-- picture -->
+                    <div  class="porduct-pic-container">
+                        <a  href="#">
+                            <img class ="product-pic" src="img/Opsgenie-blue-rgb.svg" alt="opsgenie blue">
                         </a>
-                    </div>
+                    </div>    
                     <!-- product description -->
-                    <div id="product-desc">
-                        <p>Notify the right people at the right time with powerful incident alerting and on-call schedules.</p>  
-                    </div>
+                    <p class="product-desc">Notify the right people at the right time with powerful incident alerting and on-call schedules.</p>      
                     <!-- learn more link -->
-                    <div id="learn-more-link-container">
-                        <a href="#">
+                    <div >
+                        <a class="learn-more-link-container" href="#">
                             Learn more
-                            <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <svg width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                     <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
                                         <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
@@ -215,159 +204,162 @@
                             </svg>
                         </a>             
                     </div>
-                </div>         
-            </div>     
-        </div>     
-    </div>
-
-     <!-- product column two -->
-     <div id="product-container">
-            <div id="product-container-flex">
-                <div id="product-container-inner">
-                    <div id="product-heading">
-                        <h3 id="product-heading-h3">CODE, BUILD, & SHIP</h3>
-                    </div>            
-                     <!-- product component: Sourcetree-->
-                     <div id = "product-component">
-                        <div id="porduct-pic-container">
-                            <a href="#" id="product-pic-link">
-                                <img id ="product-pic"src="img/Sourcetree-blue.svg" alt="Sourcetree blue">
-                            </a>
-                        </div>
-                        <!-- product description -->
-                        <div id="product-desc">
-                            <p>Harness the full power of Git and Mercurial in a beautifully simple application.</p>
-                        </div>
-                        <!-- learn more link -->
-                        <div id="learn-more-link-container">
-                            <a href="#">
-                                Learn more
-                                <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                        <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
-                                            <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </a>             
-                        </div>
-                    </div> 
-                    <!-- product component: Bamboo-->
-                    <div id = "product-component">
-                        <div id="product-pic-container">
-                            <a href="#" id="product-pic-link">
-                                <img id ="product-pic" src="img/Bamboo-blue.svg" alt="Bmboo Desk-blue">
-                            </a>
-                        </div>
-                        <!-- product description -->
-                        <div id="product-desc">
-                            <p>Continuous integration, deployment, and release management.</p>
-                        </div>
-                        <!-- learn more link -->
-                        <div id="learn-more-link-container">
-                            <a href="#">
-                                Learn more
-                                <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                        <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
-                                            <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </a>             
-                        </div>
-                    </div>         
-                </div>     
-            </div>     
-        </div>
-
-    <!-- product column three -->
-    <div id="product-container">
-        <div id="product-container-flex">
-            <div id="product-container-inner">
-                <div id="product-heading">
-                    <h3 id="product-heading-h3">COLLABORATE</h3>
-                </div>        
-                <!-- product component: Confluence -->
-                <div id = "product-component">
-                    <div id="porduct-pic-container">
-                        <a href="#" id="product-pic-link">
-                            <img id ="product-pic"src="img/Confluence-blue.svg" alt="Confluence">
-                        </a>
-                    </div>
-                    <!-- product description -->
-                    <div id="product-desc">
-                        <p>Spend more time getting things done. Organize your work, create documents, and discuss everything in one place.</p>
-                    </div>
-                    <!-- learn more link -->
-                    <div id="learn-more-link-container">
-                        <a href="#">
-                            Learn more
-                            <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
-                                        <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
-                                    </g>
-                                </g>
-                            </svg>
-                        </a>             
-                    </div>
-                </div>             
-                <!-- product component: Trello-->
-                <div id = "product-component">
-                    <div id="porduct-pic-container">
-                        <a href="#" id="product-pic-link">
-                            <img id ="product-pic"src="img/Trello-icon-blue.svg" alt="Trello">
-                        </a>
-                    </div>
-                    <!-- product description -->
-                    <div id="product-desc">
-                        <p>Collaborate and get more done. Trello boards enable your team to organize projects in a fun, flexible, and visual way.</p>                        </div>
-                    <!-- learn more link -->
-                    <div id="learn-more-link-container">
-                        <a href="#">
-                            Learn more
-                            <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
-                                        <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
-                                    </g>
-                                </g>
-                            </svg>
-                        </a>             
-                    </div>
-                </div> 
-            </div>     
-        </div> 
-        <!-- various people working -->
-        <div class= "vaious-people-working">
-            <img src="img/Stack.svg" alt="various people working ">
-        </div>
-
-        <!-- Find other products -->
-        <div class="find-other-products-container">            
-        <!-- and more link -->
-            <div class="find-other-product-link">
-                <a href="#">and more...</a>
+                </div>                    
             </div>
-            <div class="find-other-product-desc">
-                <p>
-                    Find other products, apps, solutions, and services to keep your team moving forward. 
-                    <br>
+             <!-- product column two -->
+             <div class="product">
+                <!-- heading -->
+                <h3 class="product-heading-h3">Code, build, & ship</h3>
+                <!-- product component: bitbucket -->
+                <div class = "product-component">
+                    <!-- picture -->
+                    <div  class="porduct-pic-container">
+                        <a  href="#">
+                            <img class ="product-pic" src="img/Bitbucket-blue.svg" alt="bitbucket blue">
+                        </a>
+                    </div>
+                    <!-- product description -->
+                    <p class="product-desc">Collaborate on code and manage your Git repositories to build and ship software, as a team.</p>      
+                    <!-- learn more link -->
+                    <div >
+                        <a class="learn-more-link-container" href="#">
+                            Learn more
+                            <svg width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                        <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>             
+                    </div>
+                </div>
+                <!-- product component: sourcetree -->
+                <div class = "product-component">
+                    <!-- picture -->
+                    <div  class="porduct-pic-container">
+                        <a  href="#">
+                            <img class ="product-pic" src="img/Sourcetree-blue.svg" alt="sourcetree blue">
+                        </a>
+                    </div>
+                    <!-- product description -->
+                    <p class="product-desc">Harness the full power of Git and Mercurial in a beautifully simple application.</p>      
+                    <!-- learn more link -->
+                    <div >
+                        <a class="learn-more-link-container" href="#">
+                            Learn more
+                            <svg width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                        <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>             
+                    </div>
+                </div>
+                <!-- product component: bamboo -->
+                <div class = "product-component">
+                    <!-- picture -->
+                    <div  class="porduct-pic-container">
+                        <a  href="#">
+                            <img class ="product-pic" src="img/Bamboo-blue.svg" alt="bamboo blue">
+                        </a>
+                    </div>
+                    <!-- product description -->
+                    <p class="product-desc">Continuous integration, deployment, and release management.</p>      
+                    <!-- learn more link -->
+                    <div >
+                        <a class="learn-more-link-container" href="#">
+                            Learn more
+                            <svg width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                        <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>             
+                    </div>
+                </div>    
+             </div>
+              <!-- product column three -->
+              <div class="product">
+                <!-- heading -->
+                <h3 class="product-heading-h3">collaborate</h3>
+                <!-- product component: confluence -->
+                <div class = "product-component">
+                    <!-- picture -->
+                    <div  class="porduct-pic-container">
+                        <a  href="#">
+                            <img class ="product-pic" src="img/Confluence-blue.svg" alt="confluence blue">
+                        </a>
+                    </div>
+                    <!-- product description -->
+                    <p class="product-desc">Spend more time getting things done. Organize your work, create documents, and discuss everything in one place.</p>      
+                    <!-- learn more link -->
+                    <div >
+                        <a class="learn-more-link-container" href="#">
+                            Learn more
+                            <svg width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                        <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>             
+                    </div>
+                </div>
+                 <!-- product component: trello -->
+                 <div class = "product-component">
+                    <!-- picture -->
+                    <div  class="porduct-pic-container">
+                        <a  href="#">
+                            <img class ="product-pic" src="img/Trello-icon-blue.svg" alt="trello blue">
+                        </a>
+                    </div>
+                    <!-- product description -->
+                    <p class="product-desc">Collaborate and get more done. Trello boards enable your team to organize projects in a fun, flexible, and visual way.</p>      
+                    <!-- learn more link -->
+                    <div >
+                        <a class="learn-more-link-container" href="#">
+                            Learn more
+                            <svg width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                        <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>             
+                    </div>
+                </div>
+            </div>
+            <!-- big picture -->
+            <div class="product-main-img-container">
+                <img class="product-main-img" src="https://wac-cdn.atlassian.com/dam/jcr:11d2461e-efa7-4e6c-ba5e-4011263cf064/Stack.svg?cdnVersion=le" alt="people working ">
+            </div>
+            <!--  and more block-->
+            <div class="product-and-more-container">
+                <div class="product-and-more-link">
+                    <a href="#">and more...</a>
+                </div>
+                <p class="product-and-more-desc">Find other products, apps, solutions, and services to keep your team moving forward. 
                     <a href="#">See all of our products</a>
                 </p>
             </div>
         </div>
     </div>
-
+      
     <!-- get started -->
     <div class="container-4">
         <div class="container-4-inner">
-            <h3 class="tools-heading">Get started with our products, for free</h3>
-            <p class="tools-desc">Atlassian products are free to try, easy to set up, and work seamlessly together.</p>
-        </div>
-        <div class="container-4-link-container">
-            <a href="#">Get Started for free</a>
+            <h2 class="get-started-heading-h2">Get started with our products, for free</h2>
+            <p class="get-started-desc">Atlassian products are free to try, easy to set up, and work seamlessly together.</p>
+            <div class="container-4-link-container">
+                <a href="#">Get Started for free</a>
+            </div>
         </div>
     </div>
 
@@ -375,41 +367,39 @@
     <div class="container-5">
         <div class="team-playbook-flex-container">
             <div class="team-playbook-img-container">
-                <div class="team-playbook-img-container-inner">
-                    <img class="team-playbook-img" src="img/teamplaybook.png" alt="team play book">
-                </div>
+                <img class="team-playbook-img" src="img/teamplaybook.png" alt="team play book">
             </div>
             <div class="team-playbook-text-link-container">
                 <div class="team-playbook-text-container">
-                    <h3 class="team-playbook-heading">Introducing the Atlassian Team Playbook</h3>
+                    <h3 class="team-playbook-heading-h3">Introducing the Atlassian Team Playbook</h3>
                     <p class="team-playbook-desc">This ain't your CEO's ivory-tower management book. It's by teams, for teams.
                         You'll find step-by-step guides for tracking your team's health, and plays that build your Get $#!τ Done™ muscle.</p>
                 </div>
                 <!-- learn more link -->
-                <div id="learn-more-link-container">
-                    <a href="#">
-                        Learn more
-                        <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
-                                    <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
-                                </g>
+                <a class="learn-more-link-container" href="#">
+                    Learn more
+                    <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
                             </g>
-                        </svg>
-                    </a>             
-                </div>
+                        </g>
+                    </svg>
+                </a>             
             </div>
         </div>
     </div>
 
     <!-- long Themtic break -->
     <div class="long-hr-container">
-            <hr class="long-hr-style">
-        </div>
+        <hr class="long-hr-style">
+    </div>
     <!-- container 6: powering innovation -->
     <div class="container-6">
-        <div class="powering-container">     
-            <h2 class="powering-heading">Powering innovation at 125,000+ companies worldwide</h2>
+        <div class="powering-container">
+            <div class="powering-heading-2-container">
+                <h2 class="powering-heading-h2">Powering innovation at 125,000+ companies worldwide</h2>
+            </div>     
             <div class="powering-img-container">
                 <a class="powering-img-container-inner" href="#">
                     <img  class="powering-img" src= "https://wac-cdn.atlassian.com/dam/jcr:543689df-87a0-4c80-b753-3ad484e380c2/customer-logos-stacked.png?cdnVersion=le 554w" alt="JIRA Service Desk customers"> 
@@ -442,18 +432,16 @@
                             </div>
                         </div>
                          <!-- read their story link -->
-                         <div id="learn-more-link-container">
-                            <a href="#">
-                                Read their story
-                                <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                        <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
-                                            <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </a>             
-                        </div>
+                         <a class="learn-more-link-container" href="#">
+                             Read their story
+                             <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                 <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                     <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                         <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
+                                     </g>
+                                 </g>
+                             </svg>
+                         </a>             
                     </div>
                 </div>
             </div>
@@ -476,69 +464,64 @@
                                     This 200-year old bank is still innovating and changing the way their 50,000 employees think and work.                                </p>
                             </div>
                         </div>
-                            <!-- watch the video link -->
-                            <div id="learn-more-link-container">
-                            <a href="#">
-                                <span class="play-button"></span>
-                               Watch the video   
-                            </a>             
-                        </div>
+                        <!-- watch the video link -->      
+                        <a class="learn-more-link-container" href="#">
+                            <span class="play-button"></span>
+                            Watch the video   
+                        </a>             
                     </div>
                 </div>
             </div>
              <!-- customer card column 3: cancer research UK -->
-             <div id="customer-card-container">
+            <div id="customer-card-container">
                 <div id="customer-card">
                     <!-- img container -->
                     <div id="customer-img-container">
-                        <img id="customer-img" src="https://wac-cdn.atlassian.com/dam/jcr:fd3d464e-6c2b-4208-9d53-f8d858a3ab93/Customers-CancerResearch.jpg?cdnVersion=le" alt="people standing next to dna board">
+                        <img id="customer-img" src="https://wac-cdn.atlassian.com/dam/jcr:fd3d464e-6c2b-4208-9d53-f8d858a3ab93/Customers-CancerResearch.jpg?cdnVersion=le" alt="people sitting and posing">
                     </div>
                     <!-- text block -->
                     <div id="customer-text-img-link-container">
                         <!-- text and img container -->
                         <div id="customer-text-img-container">
                             <div id="customer-comp-pic-container">
-                                <img id="customer-comp-pic" src="https://wac-cdn.atlassian.com/dam/jcr:0b805a47-37f3-4320-9520-2683ec9419c1/CancerResearch_2x.png?cdnVersion=le" alt="cancer research uk logo">
+                                <img id="customer-comp-pic" src="https://wac-cdn.atlassian.com/dam/jcr:0b805a47-37f3-4320-9520-2683ec9419c1/CancerResearch_2x.png?cdnVersion=le" alt="Telegraph logo">
                             </div>
                             <div id="customer-comp-text-container">
                                 <p id="customer-comp-text">
-                                    Staff members, doctors, and researchers found a better way to track projects and collaborate on a cure for cancer.                                </p>
+                                        Staff members, doctors, and researchers found a better way to track projects and collaborate on a cure for cancer.
+                                </p>
                             </div>
                         </div>
-                            <!-- read their story link -->
-                            <div id="learn-more-link-container">
-                            <a href="#">
-                                Read their story
-                                <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                        <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
-                                            <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
-                                        </g>
+                        <!-- read their story link -->
+                        <a class="learn-more-link-container" href="#">
+                            Read their story
+                            <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                                        <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
                                     </g>
-                                </svg>
-                            </a>             
-                        </div>
+                                </g>
+                            </svg>
+                        </a>             
                     </div>
                 </div>
-            </div>
+            </div>  
         </div>
     </div>
 
     <!-- container 8: learn more about our customer -->
     <div class="container-8">
         <div class="learn-more-customer">
-            <div id="learn-more-link-container">
-                <a href="#">
-                    Learn more about our customers
-                    <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                            <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
-                                <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
-                            </g>
+            <a class="learn-more-link-container"href="#">
+                Learn more about our customers
+                <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g class="group-path" transform="translate(-138.000000, -586.000000)" fill="#0052CC">
+                            <path d="M145.2803,586.507862 L144.2193,587.568863 L145.9393,589.287862 L138.7503,589.287862 C138.3363,589.287862 138.0003,589.623862 138.0003,590.037862 C138.0003,590.451862 138.3363,590.787862 138.7503,590.787862 L145.9393,590.787862 L144.2193,592.507862 L145.2803,593.568863 L148.8103,590.037862 L145.2803,586.507862 Z" id="Fill-1"/>
                         </g>
-                    </svg>
-                </a>             
-            </div>
+                    </g>
+                </svg>
+            </a>                
         </div>
     </div>
 
@@ -555,8 +538,7 @@
                         </div>
                          <!-- read their story link -->
                         <div id="atlassian-feature-text-container">
-                        <div id="learn-more-link-container">
-                            <a href="#" style="color: #253858; font-weight: 500;">
+                            <a class="learn-more-link-container" href="#" style="color: #253858; font-weight: 500;">
                                 Atlassian Enterprise
                                 <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -566,7 +548,6 @@
                                     </g>
                                 </svg>
                             </a>             
-                        </div>
                         <p id="atlassian-feature-text">Atlassian Enterprise offers the business critical products, premier support, and strategic services you need to get the most out of your Atlassian applications.</p>
                         </div>       
                     </div>
@@ -582,8 +563,7 @@
                             </div>
                              <!-- read their story link -->
                             <div id="atlassian-feature-text-container">
-                            <div id="learn-more-link-container">
-                                <a href="#" style="color: #253858; font-weight: 500;">
+                                <a class="learn-more-link-container" href="#" style="color: #253858; font-weight: 500;">
                                     Atlassian Marketplace
                                     <svg class="link-arrow-image" width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -593,7 +573,6 @@
                                         </g>
                                     </svg>
                                 </a>             
-                            </div>
                             <p id="atlassian-feature-text">The Atlassian Marketplace has thousands of apps that help your team customize and extend your Atlassian products.</p>
                             </div>       
                         </div>
@@ -604,71 +583,75 @@
 
     <!-- container 10: recommended reading  -->
     <div class="container-10">
-        <div class="container-10-inner">
-            <div class="reading-intro-container">
-                <div>
-                    <h2 class="tools-heading">Recommended reading</h2>
-                    <p class="tools-desc">Learn more about industry best practices, keep up with recent product updates, and catch the latest news from Atlassian. </p>
-                </div>
+        <div class="reading-intro-container">
+            <div>
+                <h2 class="reading-heading-h2">Recommended reading</h2>
+                <p class="reading-desc">Learn more about industry best practices, keep up with recent product updates, and catch the latest news from Atlassian. </p>
             </div>
-            <!-- reading card 1: amazing content -->
-            <div class="reading-card-container">
-                <div class="reading-card-container-inner">
+        </div>
+        <!-- reading card 1: amazing content -->
+        <div class="reading-card-container">
+            <div class="reading-card-container-inner">
+                <div class="reading-icon-container">
                     <img class="reading-icon" src="https://wac-cdn.atlassian.com/dam/jcr:c50c05a1-8ccb-4af1-9c3b-22ec5cb72626/icon-book.png?cdnVersion=le" alt="book icon">
-                    <!-- links -->
-                    <div class="reading-links-container">
-                        <h3 class="h3-heading">Amazing content</h3>
-                        <ul>
-                            <li><a href="#">Atlassian Team Playbook</a>
-                            </li>
-                            <li><a href="#">Agile development</a>
-                            </li>
-                            <li><a  href="#">Git Tutorials</a>
-                            </li>
-                            <li><a  href="#">Service management</a>
-                            </li>
-                            <li><a  href="#">Continuous delivery</a> 
-                            </li>
-                        </ul>         
-                    </div>
+                </div>
+                <!-- links -->
+                <div class="reading-links-container">
+                    <h3 class="h3-heading">Amazing content</h3>
+                    <ul>
+                        <li><a href="#">Atlassian Team Playbook</a>
+                        </li>
+                        <li><a href="#">Agile development</a>
+                        </li>
+                        <li><a  href="#">Git Tutorials</a>
+                        </li>
+                        <li><a  href="#">Service management</a>
+                        </li>
+                        <li><a  href="#">Continuous delivery</a> 
+                        </li>
+                    </ul>         
                 </div>
             </div>
-             <!-- reading card 2: popular blogs -->
-             <div class="reading-card-container">
-                <div class="reading-card-container-inner">
-                    <img class="reading-icon" src="https://wac-cdn.atlassian.com/dam/jcr:079d47ab-e16c-4787-8d15-e94ad38dfc3d/icon-popular.png?cdnVersion=le" alt="thumbs up icon">
-                    <!-- links -->
-                    <div class="reading-links-container">
-                        <h3 class="h3-heading">Popular blogs</h3>
-                        <ul>
-                            <li><a href="#">How to be smart in a world of silly team building games</a>
-                            </li>
-                            <li><a href="#">I ran a ludicrously complex engineering project (and survived)</a>
-                            </li>
-                            <li><a  href="#">If you want an open company culture, make this a habit</a>
-                            </li>
-                            <li><a  href="#">17 ways emotionally intelligent leaders build a culture of trust</a> 
-                            </li>
-                        </ul>         
-                    </div>
-                </div>
-            </div>
-            <!-- reading card 3: in the news -->
+        </div>
+            <!-- reading card 2: popular blogs -->
             <div class="reading-card-container">
-                <div class="reading-card-container-inner">
+            <div class="reading-card-container-inner">
+                <div class="reading-icon-container">
+                    <img class="reading-icon" src="https://wac-cdn.atlassian.com/dam/jcr:079d47ab-e16c-4787-8d15-e94ad38dfc3d/icon-popular.png?cdnVersion=le" alt="thumbs up icon">
+                </div>
+                <!-- links -->
+                <div class="reading-links-container">
+                    <h3 class="h3-heading">Popular blogs</h3>
+                    <ul>
+                        <li><a href="#">How to be smart in a world of silly team building games</a>
+                        </li>
+                        <li><a href="#">I ran a ludicrously complex engineering project (and survived)</a>
+                        </li>
+                        <li><a  href="#">If you want an open company culture, make this a habit</a>
+                        </li>
+                        <li><a  href="#">17 ways emotionally intelligent leaders build a culture of trust</a> 
+                        </li>
+                    </ul>         
+                </div>
+            </div>
+        </div>
+        <!-- reading card 3: in the news -->
+        <div class="reading-card-container">
+            <div class="reading-card-container-inner">
+                <div class="reading-icon-container">
                     <img class="reading-icon" src="https://wac-cdn.atlassian.com/dam/jcr:3a9a9ad6-309c-4655-b194-4acb93d24e44/icon-announcement.png?cdnVersion=le" alt="thumbs up icon">
-                    <!-- links -->
-                    <div class="reading-links-container">
-                        <h3 class="h3-heading">In the news</h3>
-                        <ul>
-                            <li><a href="#">Atlassian announces a new partnership with Slack</a>
-                            </li>
-                            <li><a href="#">Atlassian packages tools to help enterprises accelerate devOps adoption</a>
-                            </li>
-                            <li><a  href="#">Business Software Maker Atlassian Says It’s Going All-In With Amazon Cloud</a>
-                            </li>
-                        </ul>         
-                    </div>
+                </div>
+                <!-- links -->
+                <div class="reading-links-container">
+                    <h3 class="h3-heading">In the news</h3>
+                    <ul>
+                        <li><a href="#">Atlassian announces a new partnership with Slack</a>
+                        </li>
+                        <li><a href="#">Atlassian packages tools to help enterprises accelerate devOps adoption</a>
+                        </li>
+                        <li><a  href="#">Business Software Maker Atlassian Says It’s Going All-In With Amazon Cloud</a>
+                        </li>
+                    </ul>         
                 </div>
             </div>
         </div>
@@ -679,11 +662,13 @@
         <!-- top cotainer -->
         <div class="footer-top-container">
             <div class="footer-top-container-inner" >
-                <div class="footer-img-container">
-                    <img class="footer-img" src="https://wac-cdn.atlassian.com/dam/jcr:bec8148d-b7dc-493f-bbba-7519b0637581/logos-atlassian-logo-gradient-horizontal-neutral.svg?cdnVersion=le" alt="atlassian logo grey">
-                </div>
+            <div class="footer-img-container">
+                <img class="footer-img" src="https://wac-cdn.atlassian.com/dam/jcr:bec8148d-b7dc-493f-bbba-7519b0637581/logos-atlassian-logo-gradient-horizontal-neutral.svg?cdnVersion=le" alt="atlassian logo grey">
+            </div>
+            
+            <div class="footer-top-resource-container">
                 <!-- products-->
-                <div class="footer-top-resource-container">
+                <div class="footer-top-resource-flex">
                     <h3 class="h3-heading-footer">PRODUCTS</h3>
                     <ul>
                         <li class="li-footer-style"><a href="#"> Jira Software </a></li>
@@ -694,9 +679,9 @@
                         <li class="li-footer-style"><a href="#">  Bitbucket  </a></li>      
                     </ul>
                     <a class="footer-top-blue-link" href="#">View all products</a>
-                </div>
-                <!-- resources-->
-                <div class="footer-top-resource-container">
+                </div>  
+                <!-- resources-->   
+                <div class="footer-top-resource-flex">
                     <h3 class="h3-heading-footer">RESOURCES</h3>
                     <ul>
                         <li class="li-footer-style"><a href="#"> Technical support</a></li>
@@ -708,8 +693,9 @@
                     </ul>
                     <a class="footer-top-blue-link" href="#">Create support ticket</a>
                 </div>
-                <!-- expand and learn-->
-                <div class="footer-top-resource-container">
+                
+                  <!-- expand and learn-->
+                <div class="footer-top-resource-flex">
                     <h3 class="h3-heading-footer">EXPAND AND LEARN</h3>
                     <ul>
                         <li class="li-footer-style"><a href="#">  Partners </a></li>
@@ -721,8 +707,9 @@
                     </ul>
                     <a class="footer-top-blue-link" href="#"> View all resources </a>
                 </div>
-                <!-- about atlassian-->
-                <div class="footer-top-resource-container">
+                
+                   <!-- about atlassian-->
+                <div class="footer-top-resource-flex"> 
                     <h3 class="h3-heading-footer">ABOUT ATLASSIAN</h3>
                     <ul>
                         <li class="li-footer-style"><a href="#">  Company </a></li>
@@ -736,6 +723,7 @@
                 </div>
             </div>
         </div>
+    </div>
          <!--  bottom container -->
         <div class="footer-bottom-container">
             <div class="footer-bottom-container-inner">
@@ -748,34 +736,23 @@
                     
                 </div>
                 
-            <div class="social-icons">
-                <ul>
-                    <li id="logo-button">
-                        <a href="#">
-                            <img src="img/facebook-logo.svg" alt="Facebook logo button">
-                        </a>
-                    </li>
-                    <li id="logo-button">
-                        <a href="#">
-                            <img src="img/twitter-logo.svg" alt="Twitter logo button">
-                        </a>
-                    </li>
-                    <li id="logo-button">
-                        <a href="#">
-                            <img src="img/linkedin-logo.svg" alt="LinkedIn logo button">
-                        </a>
-                    </li>
-                    <li id="logo-button">
-                        <a href="#">
-                            <img src="img/youtube-logo.svg" alt="YouTube logo button">
-                        </a>
-                    </li>
-                </ul>
-
+                <div class="social-icons">
+                    <a href="#">
+                        <img src="img/facebook-logo.svg" alt="Facebook logo button">
+                    </a>
+                    <a href="#">
+                        <img src="img/twitter-logo.svg" alt="Twitter logo button">
+                    </a>
+                    <a href="#">
+                        <img src="img/linkedin-logo.svg" alt="LinkedIn logo button">
+                    </a>
+                    <a href="#">
+                        <img src="img/youtube-logo.svg" alt="YouTube logo button">
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
 
-    
 </body>
 </html>

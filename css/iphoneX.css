@@ -1,4 +1,3 @@
-
 body{
     width: 100%;
     background: white;
@@ -15,126 +14,100 @@ body{
                 Droid Sans,
                 Helvetica Neue,
                 sans-serif; 
-    margin: 0px;
-    box-sizing: border-box;
-    
+    margin: 0px;  
 }
 
-/* html,body{
+html,body{
     overflow-x: hidden;
-} */
+}
 
-/* navigation bar */
- header{
-    background: white; 
-    height: 56;
+/* nav bar */
+header{
     width: 100%;
-    position: relative;
-    vertical-align: baseline;
-    box-sizing: inherit;
-
-
-
-} 
-
-/* navigation bar wrapper */
-.nav-bar{
-    background: #fff;
     height: 56px;
+    line-height: 56px;
+    background: white;
+}
+
+/* left bar */
+.header-left-bar{   
     width: 100%;
-
+}
+.header-left-bar-inner{
+    margin: 0 20px;
+    width: 161px;
+    height: 100%; 
 }
 
-.left-bar{
-    width: 43%;
-    height: 100%;
-    align-content: center;
-    float: left;
+.header-left-bar-logo{
+    padding-top: 18px;
+    padding-bottom: 0;
 }
 
-a.atlassian-logo{
-    width: 100%;
-    height: 72px;
+.header-right-search-logo{
+    position: absolute;
+    right: 68px;
+    top: 14px;
+    height: 28px;
+    width: 28px;
+}
+.header-right-burger-logo{
+    height: 28px;
+    position: absolute; 
+    right: 20px;
+    top: 14px;
+    width: 28px;
 }
 
-.left-bar img {
-    width: 100%;
-    height: 20px;
-}
-
-.right-bar{
-    height: 100%;
-    float: right;
-    align-content: center;
-}
-
-.right-bar img{
-    width: 36px;
-    height: 36px;
-}
-
-/* Summit 2019 registration */
+/* container 1: anouncing */
 .container-1{ 
-    background-image: url("https://wac-cdn.atlassian.com/dam/jcr:4ad14d09-926b-431d-92c4-339a548b53b3/Summit2019-WACTakeover-MobileHero.png?cdnVersion=ld");
-    background-repeat: no-repeat;
-    background-color:#172B4D;
-    color: white;
+    background: url("https://wac-cdn.atlassian.com/dam/jcr:b98acc66-09c9-482d-b442-fbb2ccbff414/AC+Atlassian-HP-hero.svg?cdnVersion=le") no-repeat;
+    background-size: cover;
+    background-position: center;
     text-align: center;
     width: 100%;
-    height: 347px;
+    max-width: 100%;
+    height: auto;
     padding: 32px 0 96px 0;
-    background-position: bottom left;
-    background-size: 100% 75%;
-    position: relative;
- 
+    color: #fff;
 }
-
-.register-now-block{
-    height: 270px;
-    width: 343px;
-    padding: 0px 16px 16px 16px;
-    
+/* text block */
+.anouncing-container{
+    box-sizing: border-box;
+    padding: 16px; 
 }
-
-.register-heading-h1{
-    font-size: 30px;
-    line-height: 40px;
-    margin: 0px;
-    margin-bottom: 14px;
-    font-style: normal;
+.anouncing-heading-h3{
+    margin: 0 0 10px;
     font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 1.3px;
+}
+.anouncing-img{
+    margin: 0 0 16px;
+    max-width: 100%;
+}
+.anouncing-desc{
+    font-size: 1.25rem;
+    letter-spacing: .3px;
+    line-height: 1.4;
+    margin: 0 0 24px;
 }
 
-p.register-text{
-    letter-spacing: 0.3px;
-    line-height: 28px;
-    margin: 0;
-    margin-bottom: 24px;
-    font-size: 20px;
-    text-align: center;
-    font-weight: 400px;
-
-}
-
-a.register-link{
+.anouncing-link{
     border-radius: 3px;
-    font-weight: 500;
     line-height: 38px;
     padding: 0px 16px;
-    text-align: center;
     display: inline-block;
     text-decoration: none;
     width: 102px;
     height: 38px;
-    border: 1px solid #00C7E5;
+    border: 1px solid #fff;
     color: #fff;
-    
 }
 
-/* Jira software cloud intro */
+/* container 2:summit 2019 */
 .container-2{
     width: 100%;
-    height: 528px;
     position: relative;
     padding: 16px 0px;
     box-sizing: inherit;
@@ -143,68 +116,48 @@ a.register-link{
     text-align: center;
 }
 
-.roadmaps-container{
-    width: 343px;
-    height: 300px;
-    min-height: 1px;
+.summit-pic-container{
     padding: 16px;
-    margin: 0px;
 }
 
-img.roadmaps-pic{
+.summit-pic{
     width: 300px;
-    height: 300px;
-    text-align: center;
-    margin: 0 auto;
-
+    height: auto;
+   
 }
 
 /* bottom section */
 .c2-bottom{
-    width: 343px;
-    height: 164px;
-    padding: 16px;
-   
+    box-sizing: border-box;
+    padding: 16px; 
     text-align: left;
 
 }
 
 .c2-bottom-text
 {
-    width: 100%;
-    height: 110px;
-    color: #253858;
-  
+    color: #253858;  
 }
 
-h3.c2-bottom-text-heading{
-    width: 100%;
-    height: 48px;
-    font-size: 20px;
+.c2-bottom-text-heading{
     font-weight: 500;
     letter-spacing: 0.3px;
     line-height: 24px;
-    margin: 0px;
-    margin-bottom: 14px ;
+    margin: 0px 0px 14px;;
 }
-p.c2-bottom-text-desc{
+.c2-bottom-text-desc{
     line-height: 24px;
-    margin: 0px;
-  
+    margin: 0px;  
 }
 
 .c2-link-container{
-    width: 100%;
-    height: 30px;
-    line-height: 1px; 
     margin-top: 24px ;
-
 }
 
-a.c2-bottom-link{
+.c2-bottom-link{
     border-radius: 3px;
     border: 1px solid  #0052CC;
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 500;
     line-height: 28px;
     padding: 0px 10px;
@@ -218,165 +171,130 @@ a.c2-bottom-link{
 .container-3{
     padding-top: 16px;
     width: 100%;
-    height: 212px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .container-3-inner{
-    width: 91.5%;
     padding: 64px 16px 16px;
     text-align: center;
-
-}
-
-.tools-heading{
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin: 0px 0px 14px;
     color: #253858;
-    letter-spacing: .3px;
     line-height: 1.4;
+    letter-spacing: .3px;
     
 }
 
-.tools-desc{
-    color: #253858;
-    font-weight: 400;
+.tools-heading-h2, 
+.get-started-heading-h2, 
+.powering-heading-h2,
+.reading-heading-h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0px 0px 14px;  
+    line-height: 1.33333333;
+    color: #42526E;
+}
+
+.tools-desc, .reading-desc{
     margin: 0px;
     font-size: 1.25rem;
-    letter-spacing: .3px;
-    line-height: 1.4;
-
+    color: #42526E;
 }
 
 /* short themtic break */
-
-.short-hr-container{
-    padding: 16px 0px;
-    width: 100%;
-    box-sizing: border-box;
-
-}
-.short-hr-container-inner{
-    width: 100%;
-    text-align: center;
-}
 .hr-style{
     background: #0052CC;
-    height: 4px;
+    line-height: 16px;
     width: 140px;
-    border: none;
-    margin: 0px 101px;
-
-
+    margin: 24px 101px 24px;
+    height: 4px;
 }
 
 /* product column one */
-
-#product-container{
+.product-container{
     width: 100%;
-    padding: 16px 0px;
-
+    padding: 16px 0; 
+    box-sizing: border-box;
 }
 
-#product-container-flex{
+.product-container-flex{
     display: flex;
     flex-wrap: wrap;
+}
+
+.product{
+    padding: 16px;
+    text-align: left;
     width: 100%;
 }
 
-#product-container-inner{
-    width: 100%;
-    position: relative;
-    padding: 16px 16px 0px 16px;
-
-}
-
-#product-heading{
-    width: 91.5%;
-}
-
-#product-heading-h3{
+.product-heading-h3{
     color: #42526E;
     font-size: .875rem;
     letter-spacing: 1px;
     line-height: 1.25;
     font-weight: 700;
-    margin: 0px 0px 23px;
-
+    margin-top: 0 0 23px;
+    text-transform: uppercase;
 }
 
 /* product component: Jira Software */
-#product-component{
-    width: 91.5%;
+.product-component{
     padding-bottom: 41px;
     margin-bottom: 17px;
-
+    box-sizing: border-box;
 }
-#product-pic-container{
+.product-pic-container{
     width: 100%;
-    height: 39px;
 }
 
-#product-pic{
+.product-pic{
+    width: auto;
     height: 23px;
     margin-bottom: 16px;
 }
 
 /* product description */
-
-#product-desc{
-    width: 100%;
+.product-desc{
     color: #091E42;
-
-}
-
-#product-desc p{
-    color: #091E42;
-    width: 100%;
-    margin-bottom: 24px;
+    margin: 0 0 24px;
     font-size: 1rem;
     line-height: 24px;
     font-weight: 400;
 }
 
 /* learn more link */
-#learn-more-container{
+.learn-more-link-container{
     width: 100%;
-}
-
-#learn-more-link-container a{
-    width: auto;
     color: #0052CC;
     text-decoration: none;
     display: inline-block;
     line-height: 16px;
-    
-}
-
-#learn-more-link-container a svg{
-    width: 11px;
-    height: 8px;
-    
 }
 
 /* various people working */
-.vaious-people-working{
+.product-main-img-container{
+   padding: 16px;
+   width: 100%;
+   box-sizing: border-box;
+
+}
+.product-main-img{
     width: 100%;
-    padding: 16px;
-    box-sizing: border-box;
 }
 
-.find-other-products-container{
+/* and more block */
+.product-and-more-container{
     box-sizing: border-box;
     padding: 0px 16px 96px;
+    margin-top: -20px;
 }
 
-.find-other-product-link{
+.product-and-more-link{
     width: 100%;
 }
 
-.find-other-product-link a{
+.product-and-more-link a{
     color: #253858;
     margin-top: 0;
     font-size: 1.25rem;
@@ -386,25 +304,21 @@ a.c2-bottom-link{
     text-decoration: none;
     font-weight: 500;
 }
-
-.find-other-product-desc{
-    width: 100%;
-}
-
-.find-other-product-desc p{
+.product-and-more-desc{
     width: 100%;
     line-height: 24px;
     font-size: 1rem;
     color: #091E42;
+    margin: 0;
 }
 
-.find-other-product-desc p a{
+.product-and-more-desc a{
     color: #0052CC;
     text-decoration: none;
     
 }
 
-/*get started*/
+/*container4: get started*/
 
 .container-4{
     width: 100%;
@@ -421,6 +335,12 @@ a.c2-bottom-link{
 
 }
 
+.get-started-desc{
+    line-height: 24px;
+    margin-bottom: 24px;
+    font-size: 1rem;
+    color: #42526E;
+}
 .container-4-link-container{
     width: 100%;
     text-align: center;
@@ -458,25 +378,20 @@ a.c2-bottom-link{
     box-sizing: border-box;
 
 }
-.team-playbook-img-container-inner{
-    width: 91%.5;
-}
 .team-playbook-img{
     width: 190px;
-    height: 168px;
+    height: auto;
 }
 
 .team-playbook-text-link-container{
-    width: 91.5%;
     padding: 16px;
 
 }
 .team-playbook-text-container{
-    width: 91.5%;
     color: #253858;
 }
 
-.team-playbook-heading{
+.team-playbook-heading-h3{
     margin: 0px 0px 14px;
     font-size: 1.25rem;
     letter-spacing: .3px;
@@ -509,6 +424,7 @@ a.c2-bottom-link{
     width: 100%;
     padding: 16px 0;
     text-align: center;
+    box-sizing: border-box;
 
 
 }
@@ -516,10 +432,10 @@ a.c2-bottom-link{
     width: 100%;
     text-align: center;
 }
-.powering-heading{
-    color:#253858;
-    font-weight: 500;
+.powering-heading-2-container{
+    padding: 16px;
 }
+
 .powering-img-container{
     width: 100%;
     padding: 16px;
@@ -546,18 +462,16 @@ a.c2-bottom-link{
     width: 100%;
     padding: 16px 0px;
     text-align: center;
+    box-sizing: border-box;
 }
 .customer-flex-container{
     width: 100%;
 }
 #customer-card-container{ 
-    width: 91.5%;
     padding: 16px;
     text-align: center;
 }
 #customer-card{
-    box-sizing: border-box;
-    width: 100%;
     border-radius: 4px;
     box-shadow: 1px 1px 6px rgba(0,0,0,.1);
 }
@@ -605,10 +519,10 @@ a.c2-bottom-link{
     width: 100%;
     text-align: center;
     padding: 8px 0 64px;
+    box-sizing: border-box;
 }
 
 .learn-more-customer{
-    width: 100%;
     padding: 16px;
   
 }
@@ -622,41 +536,35 @@ a.c2-bottom-link{
 }
 .atlassian-flex-container{
     width: 100%;
-    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+
 
 
 }
 #atlassian-feature-container{
-    width: 100%;
     padding: 16px;
     text-align: center;
     box-sizing: border-box;
-
-  
 }
 
 #atlassian-feature-container-inner{
-    width: 100%;
     padding: 40px;
     text-align: center;
-    box-sizing: border-box;
     background-color: #F4F5F7;
 }
 
 #atlassian-feature-pic-container{
-    width: 100%;
     padding: 16px;
     text-align: center;
-    box-sizing: border-box;
 
 }
 #atlassian-feature-pic{
     width: 99px;
+    height: auto;
 }
 
 #atlassian-feature-text-container{
- 
-    box-sizing: border-box;
     text-align: left;
     padding: 16px;
 }
@@ -675,14 +583,12 @@ a.c2-bottom-link{
     box-sizing: border-box;
 }
 
-.container-10-inner{
-    width: 100%;
-}
 
 .reading-intro-container{
     widows: 100%;
     padding: 16px 16px 32px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 /* reading card container */
@@ -692,21 +598,27 @@ a.c2-bottom-link{
     padding: 16px;
 }
 
+
 .reading-card-container-inner{
     width: 100%;
 }
 
-.reading-icon{
-    margin: 0px 16px  16px 0px;
-    width: 40px;
+.reading-icon-container{
+    float: left;
+    margin-right: 16px;
     height: auto;
+}
 
+.reading-icon{
+    margin-bottom: 16px;
+    width: 40px;
+    height: 40px;
 }
 
 .reading-links-container{
-    width: 100%;
     box-sizing: border-box;
-    padding-left: 46px;
+    padding-left: 40px;
+    margin-left: 16px;
     text-align: left;
 
 }
@@ -724,6 +636,7 @@ ul{
     width: 100%;
     margin: 0;
     padding: 0;
+   
 }
 
 ul li{
@@ -747,13 +660,14 @@ footer{
 }
 .footer-top-container{
     width: 100%;
-    padding: 16px;
     box-sizing: border-box;
+    padding-bottom: 16px;
 }
-.footer-top-container-inner{
+
+.fotter-top-container-inner{
     width: 100%;
-    
 }
+
 .footer-img-container{
     width: 100%;
     padding: 16px;
@@ -765,17 +679,24 @@ footer{
     height: auto;
     margin-bottom: 16px;
 }
-
+/*products */
 .footer-top-resource-container{
-    width: 50%;      
+    width: 100%;      
+    display: flex;
+    flex-flow: row wrap; 
+    box-sizing: border-box; 
+}
+.footer-top-resource-flex{
+    width: 50%;
+    box-sizing: border-box; 
     padding: 16px;
    
-    
 }
+
 
 .h3-heading-footer{
     color: #42526E;
-    font-size: 14px;
+    font-size: .875rem;
     letter-spacing: 1px;
     margin: 0px 0px 24px;
     font-weight: 700;
@@ -801,6 +722,7 @@ ul .li-footer-style a{
     margin-top: 24px;
 }
 
+/* footer bottom */
 .footer-bottom-container{
     border-top: 1px solid #DFE1E5;
     width: 100%;
@@ -810,6 +732,8 @@ ul .li-footer-style a{
     width: 100%;
     padding: 16px;
     box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .lang-select{
@@ -830,3 +754,17 @@ p a {
     width: 100%;
 
 }
+
+.social-icons a{
+    text-decoration: none;
+}
+
+
+
+.social-icons a img{
+    width: 24px;
+    height: auto;
+    margin-right: 8px;
+
+}
+
